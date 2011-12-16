@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	
+	<table name="btSortableFancyboxGallery">
+		<field name="bID" type="I"><KEY /><UNSIGNED /></field>
+		<field name="fsID" type="I"><UNSIGNED /></field>
+		<field name="fullWidth" type="I"><UNSIGNED /></field>
+		<field name="fullHeight" type="I"><UNSIGNED /></field>
+		<field name="displayColumns" type="I"><UNSIGNED /></field>
+		<field name="enableLightbox" type="L"><DEFAULT value="1" /></field>
+		<field name="lightboxTransitionEffect" type="C" size="10"><DEFAULT value="fade" /></field>
+		<field name="lightboxTitlePosition" type="C" size="10"><DEFAULT value="inside" /></field>
+		<field name="thumbWidth" type="I"><UNSIGNED /></field>
+		<field name="thumbHeight" type="I"><UNSIGNED /></field>
+	</table>
+
+	<table name="btSortableFancyboxGalleryPositions">
+		<field name="bID" type="I"><UNSIGNED /></field>
+		<field name="fID" type="I"><UNSIGNED /></field>
+		<field name="position" type="I"><UNSIGNED /></field>
+	</table>
+
+</schema>

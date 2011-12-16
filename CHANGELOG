@@ -1,0 +1,6 @@
+1.14 - Fixed "Divide By Zero" errors in Concrete 5.4.2 (thumbnail width/height controls were always disabled in the edit form)
+1.13 - Removed duplicate "border" attribute from image output
+1.12 - Fixed bug with unicode characters not being displayed properly in titles
+1.11 - When more than one gallery block is on a page, clicking "prev/next" links on zoomed-out images now only flips between images in the same gallery. Also fixed a problem when other lightbox effects on a page would overlap with fancybox effect.
+1.1 - Fixed bug where images were not displayed in grid when block is first added to page; added default sorting based on fileset display order when using Concrete 5.4.1.
+1.0 - Initial Release
