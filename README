@@ -1,3 +1,13 @@
+INSTALLATION
+
+git clone:
+/site$ git clone https://github.com/dtan/c5-sortable-fancybox.git blocks/sortable_fanxybox_gallery
+
+git submodule:
+/site$ git submodule add https://github.com/dtan/c5-sortable-fancybox.git blocks/sortable_fanxybox_gallery
+
+github.com:dtan/c5-sortable-fancybox.git
+
 This is for the Concrete5 CMS plugin.  This was NOT created by me.  I am simply posting this here for easy access to deploy to my server.
 More details on this plugin can be found here: 
 http://www.concrete5.org/marketplace/addons/sortable-fancybox-gallery/
